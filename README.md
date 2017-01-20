@@ -17,3 +17,5 @@ Access: http://localhost:3000/
   * modified input tag --> textarea tag
   * change the form format
   * separate form format to another program
+  * create edit function and delete function
+  * change the gem file setting
