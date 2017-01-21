@@ -19,3 +19,6 @@ Access: http://localhost:3000/
   * separate form format to another program
   * create edit function and delete function
   * change the gem file setting
+
+## 0121
+* modified form tag
