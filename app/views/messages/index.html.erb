@@ -20,28 +20,25 @@
  
 <!-- <% end %> -->
 
-<form class="form-horizontal" role="form"
-  <%= form_for(@message) do |f| %>
+<%= form_for(@message, :html => {class: 'form-horizontal'}) do |f| %>
   <div class="form-group">
-    <label for="inputEmail3" class="col-sm-2 control-label">Name</label>
+    <label for="inputName" class="col-sm-2 control-label">Name</label>
     <div class="col-sm-10">
-      <!-- <input type="email" class="form-control" id="inputEmail3" placeholder="Email"> -->
       <%= f.text_field :name %>
     </div>
   </div>
   <div class="form-group">
-    <label for="inputPassword3" class="col-sm-2 control-label">Contents</label>
+    <label for="inputComment" class="col-sm-2 control-label">Comment</label>
     <div class="col-sm-10">
-      <!-- <input type="password" class="form-control" id="inputPassword3" placeholder="Password"> -->
       <%= f.text_area :body, :size=>"60x5" %>
     </div>
   </div>
   <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
-      <!-- <button type="submit" class="btn btn-default">Sign in</button> -->
-        <%= f.submit class: "btn btn-sm btn-primary" %>
+      <button type="submit" class="btn btn-default">Enter</button>
     </div>
   </div>
+
   <!-- 名前: -->
   <!-- <\!-- <br> -\-> -->
   <!-- <%= f.text_field :name %> -->
@@ -51,5 +48,4 @@
   <!-- <%= f.text_area :body, :size=>"60x5" %> -->
   <!-- <%= f.text_field :body %> -->
   <!-- <%= f.submit class: "btn btn-sm btn-primary" %> -->
-  <% end %>
- </form>
+<% end %>
