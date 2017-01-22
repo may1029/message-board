@@ -25,3 +25,6 @@ Access: http://localhost:3000/
 
 ## 0122
 * modified form tag
+* reflect the modifications from branch challenge1
+* Heroku deploy --> http://may1029-message-board.herokuapp.com/
+* create new directory: microposts
