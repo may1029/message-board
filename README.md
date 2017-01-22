@@ -11,8 +11,8 @@ Access: http://localhost:3000/
   * SELECT * FROM messages WHERE id = 1; <--id = 1だけ取り出す
   
   ## 0120
-  ```starting server:
-  $ rails s
+  ```
+  starting server:   $ rails s
   ```
   * modified input tag --> textarea tag
   * change the form format
