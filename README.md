@@ -22,3 +22,6 @@ Access: http://localhost:3000/
 
 ## 0121
 * modified form tag
+
+## 0122
+* modified form tag
